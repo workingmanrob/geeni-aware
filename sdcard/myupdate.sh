@@ -6,12 +6,13 @@ if [[ ! -d /mnt/jffs2 ]]; then
 fi
 
 if [[ ! -f /mnt/bak/shadow ]]; then
-	# move modified shadow file to set root password = cosmicpower
+	# backup the original again just in case
 	mv /etc/jffs2/shadow /etc/jffs2/shadow.org
 	if [[ ! -d /mnt/bak ]]; then
 		mkdir /mnt/bak
 	fi
 	cp /mnt/shadow /mnt/bak/
+	# move modified shadow file to set root password = cosmicpower
 	mv /mnt/shadow /etc/jffs2/
 fi
 
@@ -23,6 +24,7 @@ sleep 10
 
 sleep 10
 
+# forever loop to keep script running - prevents system from starting camera services
 while true; do
 	sleep 600
 done
