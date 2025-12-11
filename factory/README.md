@@ -1,6 +1,6 @@
 # geeni-aware-factory-rootfs
 
-![alt text](pics/geeni-aware-box.png "Geeni Aware HD")
+![Geeni Mainboard](../pics/mainboard-back.jpg "Geeni Mainboard")
 
 Backup of factory root filesystem.
 
