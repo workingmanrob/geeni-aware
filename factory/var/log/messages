@@ -1,0 +1,260 @@
+Jan  1 00:00:12 anyka syslog.info syslogd started: BusyBox v1.24.1
+Jan  1 00:00:12 anyka kern.info kernel: io scheduler cfq registered (default)
+Jan  1 00:00:12 anyka kern.warn kernel: AK39xx uart driver init, (c) 2013 ANYKA
+Jan  1 00:00:12 anyka kern.info kernel: ak39-uart.0: ttySAK0 at MMIO 0x20130000 (irq = 10) is a AK39
+Jan  1 00:00:12 anyka kern.info kernel: ak39-uart.1: ttySAK1 at MMIO 0x20138000 (irq = 11) is a AK39
+Jan  1 00:00:12 anyka kern.err kernel: ion: failed to create debug files.
+Jan  1 00:00:12 anyka kern.info kernel: brd: module loaded
+Jan  1 00:00:12 anyka kern.info kernel: loop: module loaded
+Jan  1 00:00:12 anyka kern.warn kernel: AK Motor Driver (c) 2013 ANYKA
+Jan  1 00:00:12 anyka kern.warn kernel: init the ak-motor device success.
+Jan  1 00:00:12 anyka kern.info kernel: @@@ [akpcm_init]: enter @@@
+Jan  1 00:00:12 anyka kern.info kernel: @@@ [akpcm_probe]: enter @@@
+Jan  1 00:00:12 anyka kern.warn kernel: akpcmL0->ak39_codec_probe enter...
+Jan  1 00:00:12 anyka kern.debug kernel: @@@ [akpcm_probe:357]: akpcm initialize OK! @@@
+Jan  1 00:00:12 anyka kern.debug kernel: @@@ [set_channel_source:105]: addr=2, src=2 @@@
+Jan  1 00:00:12 anyka kern.debug kernel: @@@ [set_channel_source:153]: src=2, s_dac=0, s_linein=0, s_mic=1 @@@
+Jan  1 00:00:12 anyka kern.info kernel: akpcm probe: mic on
+Jan  1 00:00:12 anyka kern.info kernel: akpcm_probe: OK
+Jan  1 00:00:12 anyka kern.err kernel: akisp_init
+Jan  1 00:00:12 anyka kern.err kernel: ak_pwm_probe
+Jan  1 00:00:12 anyka kern.warn kernel: Start to init Anyka SPI Flash...
+Jan  1 00:00:12 anyka kern.warn kernel: Start to init Anyka partition table...
+Jan  1 00:00:12 anyka kern.warn kernel: AK SPI Driver, (c) 2012 ANYKA
+Jan  1 00:00:12 anyka kern.warn kernel: akpi regs: SPICON:00000152, SPISTA:00000015, SPIINT:00000000.
+Jan  1 00:00:12 anyka kern.info kernel: ak-spi ak-spi: master is unqueued, this is deprecated
+Jan  1 00:00:12 anyka kern.warn kernel: ak_spi setup the master.
+Jan  1 00:00:12 anyka kern.warn kernel: pre-scaler=2 (wanted 20Mhz, got 20Mhz)
+Jan  1 00:00:12 anyka kern.warn kernel: ak spiflash probe enter.
+Jan  1 00:00:12 anyka kern.warn kernel: pre-scaler=2 (wanted 20Mhz, got 20Mhz)
+Jan  1 00:00:12 anyka kern.warn kernel: ak_spi_setupxfer,con:00000252.
+Jan  1 00:00:12 anyka kern.warn kernel: akspi flash ID: 0x00ef4017
+Jan  1 00:00:12 anyka kern.info kernel: ak-spiflash spi0.0: w25q64 (8192 Kbytes)
+Jan  1 00:00:12 anyka kern.warn kernel: FHA:partition lib version: V1.1.06^M
+Jan  1 00:00:12 anyka kern.warn kernel: FHA:spiflash init^M
+Jan  1 00:00:12 anyka kern.warn kernel: FHA:boot block num offset:427
+Jan  1 00:00:12 anyka kern.warn kernel: FHA:Sflash_Get_Partition_Startpage g_boot_len:848
+Jan  1 00:00:12 anyka kern.warn kernel: mtd_part[0]:
+Jan  1 00:00:12 anyka kern.warn kernel: name = KERNEL
+Jan  1 00:00:12 anyka kern.warn kernel: size = 0x190000
+Jan  1 00:00:12 anyka kern.warn kernel: offset = 0x37000
+Jan  1 00:00:12 anyka kern.warn kernel: mask_flags = 0x1
+Jan  1 00:00:12 anyka kern.warn kernel: mtd_part[1]:
+Jan  1 00:00:12 anyka kern.warn kernel: name = MAC
+Jan  1 00:00:12 anyka kern.warn kernel: size = 0x1000
+Jan  1 00:00:12 anyka kern.warn kernel: offset = 0x1c7000
+Jan  1 00:00:12 anyka kern.warn kernel: mask_flags = 0x1
+Jan  1 00:00:12 anyka kern.warn kernel: mtd_part[2]:
+Jan  1 00:00:12 anyka kern.warn kernel: name = ENV
+Jan  1 00:00:12 anyka kern.warn kernel: size = 0x1000
+Jan  1 00:00:12 anyka kern.warn kernel: offset = 0x1c8000
+Jan  1 00:00:12 anyka kern.warn kernel: mask_flags = 0x1
+Jan  1 00:00:12 anyka kern.warn kernel: mtd_part[3]:
+Jan  1 00:00:12 anyka kern.warn kernel: name = A
+Jan  1 00:00:12 anyka kern.warn kernel: size = 0x145000
+Jan  1 00:00:12 anyka kern.warn kernel: offset = 0x1c9000
+Jan  1 00:00:12 anyka kern.warn kernel: mask_flags = 0x1
+Jan  1 00:00:12 anyka kern.warn kernel: mtd_part[4]:
+Jan  1 00:00:12 anyka kern.warn kernel: name = B
+Jan  1 00:00:12 anyka kern.warn kernel: size = 0x64000
+Jan  1 00:00:12 anyka kern.warn kernel: offset = 0x30e000
+Jan  1 00:00:12 anyka kern.warn kernel: mask_flags = 0x1
+Jan  1 00:00:12 anyka kern.warn kernel: mtd_part[5]:
+Jan  1 00:00:12 anyka kern.warn kernel: name = C
+Jan  1 00:00:12 anyka kern.warn kernel: size = 0x467000
+Jan  1 00:00:12 anyka kern.warn kernel: offset = 0x372000
+Jan  1 00:00:12 anyka kern.warn kernel: mask_flags = 0x1
+Jan  1 00:00:12 anyka kern.notice kernel: Creating 6 MTD partitions on "spi0.0":
+Jan  1 00:00:12 anyka kern.notice kernel: 0x000000037000-0x0000001c7000 : "KERNEL"
+Jan  1 00:00:12 anyka kern.notice kernel: 0x0000001c7000-0x0000001c8000 : "MAC"
+Jan  1 00:00:12 anyka kern.notice kernel: 0x0000001c8000-0x0000001c9000 : "ENV"
+Jan  1 00:00:12 anyka kern.notice kernel: 0x0000001c9000-0x00000030e000 : "A"
+Jan  1 00:00:12 anyka kern.notice kernel: 0x00000030e000-0x000000372000 : "B"
+Jan  1 00:00:12 anyka kern.notice kernel: 0x000000372000-0x0000007d9000 : "C"
+Jan  1 00:00:12 anyka kern.warn kernel: Init AK SPI Flash finish.
+Jan  1 00:00:12 anyka kern.warn kernel: akspi master initialize success, use for DMA mode.
+Jan  1 00:00:12 anyka kern.info kernel: AK39E_MAC Ethernet Driver, V1.0
+Jan  1 00:00:12 anyka kern.info kernel: input: akgpio-keys as /devices/platform/akgpio-keys/input/input0
+Jan  1 00:00:12 anyka kern.emerg kernel: We're Using Internal RC OSC.
+Jan  1 00:00:12 anyka kern.warn kernel: AK RTC, (c) 2010 ANYKA 
+Jan  1 00:00:12 anyka kern.info kernel: ak-rtc ak-rtc: rtc core: registered ak-rtc as rtc0
+Jan  1 00:00:12 anyka kern.info kernel: i2c /dev entries driver
+Jan  1 00:00:12 anyka kern.warn kernel: AK MCI Driver (c) 2010 ANYKA
+Jan  1 00:00:12 anyka kern.warn kernel: akmci_probe : MCI
+Jan  1 00:00:12 anyka kern.info kernel: ## MMC Power: GPIO-1 Setup
+Jan  1 00:00:12 anyka kern.info kernel: akmci ak_mci.0: Mci Interface driver.mmc0. using l2dma, sw IRQ. detect mode:GPIO detect.
+Jan  1 00:00:12 anyka kern.debug kernel: Registered led device: blue_led
+Jan  1 00:00:12 anyka kern.debug kernel: Registered led device: red_led
+Jan  1 00:00:12 anyka kern.debug kernel: Registered led device: ir_led
+Jan  1 00:00:12 anyka kern.info kernel: TCP: cubic registered
+Jan  1 00:00:12 anyka kern.info kernel: NET: Registered protocol family 17
+Jan  1 00:00:12 anyka kern.info kernel: lib80211: common routines for IEEE802.11 drivers
+Jan  1 00:00:12 anyka kern.debug kernel: lib80211_crypt: registered algorithm 'NULL'
+Jan  1 00:00:12 anyka kern.info kernel: ak-rtc ak-rtc: setting system clock to 1980-01-01 00:00:10 UTC (315532810)
+Jan  1 00:00:12 anyka kern.info kernel: VFS: Mounted root (squashfs filesystem) readonly on device 31:4.
+Jan  1 00:00:12 anyka kern.info kernel: devtmpfs: mounted
+Jan  1 00:00:12 anyka kern.info kernel: Freeing init memory: 108K
+Jan  1 00:00:12 anyka kern.warn kernel: mmc0: host does not support reading read-only switch. assuming write-enable.
+Jan  1 00:00:12 anyka kern.info kernel: mmc0: new SD card at address 6913
+Jan  1 00:00:12 anyka kern.info kernel: mmcblk0: mmc0:6913 SD02G 1.83 GiB 
+Jan  1 00:00:12 anyka kern.info kernel:  mmcblk0: p1
+Jan  1 00:00:12 anyka kern.err kernel: SQUASHFS error: Xattrs in filesystem, these will be ignored
+Jan  1 00:00:12 anyka kern.err kernel: SQUASHFS error: unable to read xattr id index table
+Jan  1 00:00:12 anyka kern.err kernel: aksensor_module_init
+Jan  1 00:00:12 anyka kern.info kernel: soc-camera-pdrv soc-camera-pdrv: Probing soc-camera-pdrv
+Jan  1 00:00:12 anyka kern.info kernel: ak_camera ak_camera.39: AK Camera driver attached to camera 0
+Jan  1 00:00:13 anyka kern.warn kernel: mis2003_set_power_on
+Jan  1 00:00:13 anyka kern.err kernel: MIS2003 probe sensor id=0x2006
+Jan  1 00:00:13 anyka kern.warn kernel: mis2006_set_power_on
+Jan  1 00:00:13 anyka kern.err kernel: mis2006 probe sensor id=0x2006
+Jan  1 00:00:13 anyka kern.info kernel: aksensor 0-0001: probe_sensors Probing Sensor ID: 0x2006
+Jan  1 00:00:13 anyka kern.info kernel: ak_camera ak_camera.39: AK Camera driver detached from camera 0
+Jan  1 00:00:13 anyka kern.info kernel: ak_camera ak_camera.39: AK Camera driver loaded
+Jan  1 00:00:13 anyka kern.warn kernel: ak_info_dump_init
+Jan  1 00:00:13 anyka daemon.info init: starting pid 410, tty '/dev/ttySAK0': '/sbin/getty -L ttySAK0 115200 vt100 '
+Jan  1 00:00:19 anyka kern.info kernel: usb-host usb-host: Anyka usb host controller
+Jan  1 00:00:19 anyka kern.info kernel: usb-host usb-host: new USB bus registered, assigned bus number 1
+Jan  1 00:00:19 anyka kern.info kernel: usb-host usb-host: irq 18, io mem 0x20200000
+Jan  1 00:00:19 anyka kern.info kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Jan  1 00:00:19 anyka kern.info kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jan  1 00:00:19 anyka kern.info kernel: usb usb1: Product: Anyka usb host controller
+Jan  1 00:00:19 anyka kern.info kernel: usb usb1: Manufacturer: Linux 3.4.35 usb-host
+Jan  1 00:00:19 anyka kern.info kernel: usb usb1: SerialNumber: Anyka usb host controller
+Jan  1 00:00:19 anyka kern.info kernel: hub 1-0:1.0: USB hub found
+Jan  1 00:00:19 anyka kern.info kernel: hub 1-0:1.0: 1 port detected
+Jan  1 00:00:19 anyka kern.warn kernel: Usb otg-hs controller driver initialized
+Jan  1 00:00:20 anyka kern.info kernel: usb 1-1: new high-speed USB device number 2 using usb-host
+Jan  1 00:00:20 anyka kern.info kernel: usb 1-1: New USB device found, idVendor=007a, idProduct=8888
+Jan  1 00:00:20 anyka kern.info kernel: usb 1-1: New USB device strings: Mfr=16, Product=32, SerialNumber=0
+Jan  1 00:00:20 anyka kern.info kernel: usb 1-1: Product: AltoBeam_WIFI
+Jan  1 00:00:20 anyka kern.info kernel: usb 1-1: Manufacturer: AltoBeam inc.
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:atbm_usb_module_init 0
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:SVN_VER=2081,DPLL_CLOCK=2,BUILD_TIME=[===USB-ARES_B==
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:Probe called -1 v1
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:not CONFIG_USE_DMA_ADDR_BUFFER
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:CONFIG_TX_NO_CONFIRM
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:Allocated hw_priv @ c1970d20
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:atbmwifi USB_USE_TASTLET_TXRX enable (c1970d20)
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:atbm_before_load_firmware++
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:atbm_HwGetChipType, chipver=0x49, g_wifi_chip_type[10]
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:+++++++++++++++++1.1v++++++++++++++++++
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:===================~_~====================
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:atbm_start_load_firmware++
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:used firmware.h=
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:START DOWNLOAD ICCM=========
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:atbm_load_firmware_generic: addr 10000: len 22000
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:START DOWNLOAD DCCM=========
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:atbm_load_firmware_generic: addr 800000: len 8000
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:atbm_after_load_firmware++
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:0x1610102c=0x40a0e
+Jan  1 00:00:22 anyka kern.err kernel: [atbm_log]:0x1610102c=0x10a0f
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:0x16101000=0x8000e08
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:set_block_size=256
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:firmwareCap f5a9
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:firmwareCap2 51ae
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:wsm_caps.firmwareCap 51aef5a9
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:apollo wifi WSM init done.
+Jan  1 00:00:23 anyka kern.err kernel:    Input buffers: 32 x 2048 bytes
+Jan  1 00:00:23 anyka kern.err kernel:    Hardware: 7.1280
+Jan  1 00:00:23 anyka kern.err kernel:    WSM firmware [=MODEM=RF=Ares_AX  2GHZ Jan 13 2022 15:23:01NOTXConfrim], ver: 13625, build: 2820, api: 1060, cap: 0x51AEF5A9 Config[30004]  expection 900b5c0, ep0 cmd addr 901ce2c NumOfStations[4] NumOfInterfaces[3]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:EFUSE(8)				[0]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:EFUSE(I)					[1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:EFUSE(B)			[0]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_ATBM_PRIVATE_IE      [0]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_NVR_IPC              [0]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_NO_CONFIRM           [1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_SDIO_PATCH           [0]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_NO_BACKOFF           [1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_CFO                  [0]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_AGC                  [1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_TXCAL                [1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_MONITOR              [0]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_CUSTOM               [1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_SMARTCONFIG          [0]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_ETF                  [1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_LMAC_RATECTL         [1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_LMAC_TPC             [1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_LMAC_TEMPC           [1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_CTS_BUG              [0]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_USB_RECOVERY_BUG     [1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_USE_IPC              [1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_OUTER_PA             [0]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_POWER_CONSUMPTION    [1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_RSSI_DECIDE_TXPOWER  [0]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_RTS_LONG_DURATION    [1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_TX_CFO_PPM_CORRECTION[1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_SHARE_CRYSTAL       [0]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_HW_CHECKSUM          [0]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_SINGLE_CHANNEL_MULRX [0]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CAPABILITIES_CFO_DCXO_CORRECTION  [1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:EX_CAPABILITIES_TWO_CHIP_ONE_SOC	[0]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:EX_CAPABILITIES_MANUAL_SET_AC 	[0]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:EX_CAPABILITIES_LMAC_BW_CONTROL	[1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:EX_CAPABILITIES_SUPPORT_TWO_ANTENNA	[0]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:EX_CAPABILITIES_ENABLE_STA_REMAIN_ON_CHANNEL	[1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:EX_CAPABILITIES_ENABLE_PS 	   [0]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:EX_CAPABILITIES_TX_REQUEST_FIFO_LINK 	   [0]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:EX_CAPABILITIES_CHIP_TYPE		6032IS
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CONFIG_PRODUCT_TEST_USE_FEATURE_ID [1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:CONFIG_PRODUCT_TEST_USE_GOLDEN_LED [1]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:mdelay wait wsm_startup_done  !!
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:wsm_generic_confirm:status(2)
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:<WARNING> wsm_write_mib fail !!! mibId=4132
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:apollo wifi : can't open /data/.mac.info
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:efuse data is [0x1,0x3b,0x1f,0x1e,0x1f,0xe,0x0,0x0,0xf4:0xb1:0x9c:0x80:0xd0:0x57]
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:apollo wifi : can't open /tmp/atbm_txpwer_dcxo_cfg.txt
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:apollo wifi : can't open /tmp/set_rate_power.txt
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:get chip id [94][1][1] 
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:current chiptype 6032is 
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:enable sg
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:is registered as 'ALTOBEAM'
+Jan  1 00:00:23 anyka kern.err kernel: [atbm_log]:[atbm_wtd]:set wtd_probe = 1
+Jan  1 00:00:23 anyka kern.info kernel: usbcore: registered new interface driver atbm_wlan
+Jan  1 00:00:24 anyka kern.err kernel: [atbm_log]:atbm_hw_scan:if_id(0)
+Jan  1 00:00:24 anyka kern.err kernel: [atbm_log]:atbm_hw_scan:scan, delay suspend
+Jan  1 00:00:24 anyka kern.err kernel: [atbm_log]:scan start band(0),(14)
+Jan  1 00:00:25 anyka kern.err kernel: [atbm_log]:hw_priv->scan.status 0
+Jan  1 00:00:25 anyka kern.err kernel: [atbm_log]:atbm_scan_work:end(0)
+Jan  1 00:00:25 anyka kern.err kernel: [atbm_log]:wlan0:free authen bss ++
+Jan  1 00:00:25 anyka kern.err kernel: [atbm_log]:authen:(c0:c9:e3:a3:1d:f4),ssid(deadzone)
+Jan  1 00:00:25 anyka kern.err kernel: [atbm_log]:[TX]:authen, delay suspend
+Jan  1 00:00:26 anyka kern.err kernel: [atbm_log]:wlan0: authenticated
+Jan  1 00:00:26 anyka kern.err kernel: [atbm_log]:wlan0:free authen bss ++
+Jan  1 00:00:26 anyka kern.err kernel: [atbm_log]:wlan0:free authen bss --
+Jan  1 00:00:26 anyka kern.err kernel: [atbm_log]:wlan0: associated
+Jan  1 00:00:26 anyka kern.err kernel: [atbm_log]:[c0:c9:e3:a3:1d:f4]:20M channel
+Jan  1 00:00:26 anyka kern.err kernel: [atbm_log]:ieee80211_recalc_ps:work busy
+Jan  1 00:00:27 anyka kern.err kernel: [atbm_log]:ieee80211_process_addba_request:mac[c0:c9:e3:a3:1d:f4],tid[0]
+Jan  1 00:00:27 anyka kern.err kernel: [atbm_log]:atbm_bss_info_changed 749 ,pmMode = 0 
+Jan  1 00:00:27 anyka kern.err kernel: [atbm_log]:atbm_bss_info_changed 760 : pmMode(0) 
+Jan  1 00:00:34 anyka kern.err kernel: [atbm_log]:ieee80211_process_addba_request:mac[c0:c9:e3:a3:1d:f4],tid[2]
+Jan  1 00:00:39 anyka authpriv.warn dropbear[545]: Failed loading /etc/dropbear/dropbear_rsa_host_key
+Jan  1 00:00:39 anyka authpriv.warn dropbear[545]: Failed loading /etc/dropbear/dropbear_dss_host_key
+Jan  1 00:00:39 anyka authpriv.warn dropbear[545]: Failed loading /etc/dropbear/dropbear_ecdsa_host_key
+Jan  1 00:00:39 anyka authpriv.info dropbear[549]: Running in background
+Jan  1 00:00:39 anyka authpriv.info dropbear[550]: Child connection from 192.168.99.95:40212
+Jan  1 00:00:44 anyka authpriv.notice dropbear[550]: Password auth succeeded for 'root' from 192.168.99.95:40212
+Jan  1 00:02:09 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Jan  1 00:04:10 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Jan  1 00:06:10 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Jan  1 00:08:10 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Jan  1 00:10:11 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Jan  1 00:12:11 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Jan  1 00:14:11 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Jan  1 00:16:12 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Jan  1 00:17:54 anyka kern.warn kernel: <WIFI> rx ampdu ++ 
+Jan  1 00:18:12 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Jan  1 00:18:57 anyka kern.err kernel: [atbm_log]:ieee80211_process_addba_request:mac[c0:c9:e3:a3:1d:f4],tid[5]
+Dec 11 06:11:14 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Dec 11 06:13:15 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Dec 11 06:15:15 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Dec 11 06:17:15 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Dec 11 06:19:15 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Dec 11 06:21:16 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Dec 11 06:23:16 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Dec 11 06:25:16 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Dec 11 06:27:17 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Dec 11 06:29:17 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Dec 11 06:31:17 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Dec 11 06:33:18 anyka kern.warn kernel: ak_osc_source_adjust_enable
+Dec 11 06:35:18 anyka kern.warn kernel: ak_osc_source_adjust_enable
