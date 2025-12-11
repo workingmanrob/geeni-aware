@@ -10,6 +10,8 @@ Update wifi_cfg.ini to include your wireless ssid and password.
 
 # System info
 
+![Geeni Mainboard](pics/mainboard_back.jpg "Geeni Mainboard")
+
 System uses U-boot which can be accessed via serial console.
 ```
 U-Boot 2013.10.0-AK_V3.0.08 (Mar 05 2019 - 15:37:04)
