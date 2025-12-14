@@ -112,7 +112,7 @@ ap_stop()
 station_start()
 {
 	/mnt/wifi_station.sh start
-#	/usr/sbin/wifi_station.sh start
+	#/usr/sbin/wifi_station.sh start
 	
 	pid=`pgrep wpa_supplicant`
 	if [ -z "$pid" ];then
@@ -128,13 +128,13 @@ station_start()
 station_stop()
 {
 	/mnt/wifi_station.sh stop
-#	/usr/sbin/wifi_station.sh stop
+	#/usr/sbin/wifi_station.sh stop
 }
 
 station_connect()
 {
 	/mnt/wifi_station.sh connect
-#	/usr/sbin/wifi_station.sh connect
+	#/usr/sbin/wifi_station.sh connect
 	ret=$?
 	echo "wifi connect return val: $ret"
 	if [ $ret -eq 0 ];then
@@ -198,7 +198,7 @@ auto_start()
 					play_afresh_net_config
 					#### clean config file and re-config
 					/mnt/wifi_station.sh stop
-#					/usr/sbin/wifi_station.sh stop
+					#/usr/sbin/wifi_station.sh stop
 					rm -rf $tmp_wifi_dir
 					rm -f $tmp_wifi_cfgfile
 				fi

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "running dropbear ssh server"
+
+/mnt/dropbear/dropbearmulti dropbear -r /mnt/dropbear/dropbear_ecdsa_host_key
