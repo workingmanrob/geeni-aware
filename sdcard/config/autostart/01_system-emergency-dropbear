@@ -2,4 +2,9 @@
 
 echo "running dropbear ssh server"
 
-/mnt/dropbear/dropbearmulti dropbear -r /mnt/dropbear/dropbear_ecdsa_host_key
+if [[ ! -f /mnt/bin/dropbear/dropbear_ecdsa_host_key ]]; then
+	echo "create dropbear ssh server host key"
+	/mnt/bin/dropbear/dropbearmulti dropbearkey -t ecdsa -f /mnt/bin/dropbear/dropbear_ecdsa_host_key
+fi
+
+/mnt/bin/dropbear/dropbearmulti dropbear -r /mnt/bin/dropbear/dropbear_ecdsa_host_key
