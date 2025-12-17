@@ -11,9 +11,15 @@ Attempt to hack a Geeni branded ip camera.  1080p model uses anyka v300 chipset.
 - [x] sdcard hack
 - [ ] firmware replacemnt
 
-sdcard folder contains the bare minimum required to setup wifi and run dropbear ssh server.  The root password will be set to cosmicpower - yes that is a Genie joke.
+sdcard folder contains a fully working hack.  Camera will connect to wifi, run dropbear ssh server and start an rtsp stream.  No need to do any initial setup.  Works right out of the box without any app required.
 
-Update wifi_cfg.ini to include your wireless ssid and password.
+Format an sdcard with a FAT32 filesystem and allocation unit size of 32K (eg: sudo mkfs.fat -s 64 -n IPCAM /dev/sdX1 - solve for X).  Copy the contents of the sdcard folder from this repo to the root of your freshly formatted card.
+
+** Update wifi_cfg.ini with your wireless ssid and password. **
+
+The root password will be set to cosmicpower - yes that is a Genie joke.
+
+Firmware replacement seems unlikely unless binaries and library file sizes can be significantly reduced.  A hybrid mod to remove anyka services and possibly store dropbear on the internal flash seems more likely at least as a first attempt.
 
 # System info
 
