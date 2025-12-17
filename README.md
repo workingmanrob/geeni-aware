@@ -15,7 +15,7 @@ sdcard folder contains a fully working hack.  Camera will connect to wifi, run d
 
 Format an sdcard with a FAT32 filesystem and allocation unit size of 32K (eg: sudo mkfs.fat -s 64 -n IPCAM /dev/sdX1 - solve for X).  Copy the contents of the sdcard folder from this repo to the root of your freshly formatted card.
 
-** Update wifi_cfg.ini with your wireless ssid and password. **
+**### Update wifi_cfg.ini with your wireless ssid and password. ###**
 
 The root password will be set to cosmicpower - yes that is a Genie joke.
 
